@@ -276,7 +276,12 @@ function downloadUrls(components, urls, opts, callback) {
         var cacheFileTempName = zipPath + '.part';
         var cacheFileFinalName = zipPath;
 
-        axios.get(url, { responseType: 'arraybuffer' })
+        axios.get(url, { 
+          responseType: 'arraybuffer',
+          onDownloadProgress: e => {
+            runningTotal = e.loaded
+          }
+        })
           .then((response) => {
             totalFilesize = response.headers['content-length'];
 
