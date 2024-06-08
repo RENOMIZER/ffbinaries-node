@@ -279,10 +279,10 @@ function downloadUrls(components, urls, opts, callback) {
         var cacheFileTempName = zipPath + '.part';
         var cacheFileFinalName = zipPath;
 
-        axios.get(url, { 
+        axios.get(url, {
           responseType: 'arraybuffer',
-          onDownloadProgress: e => {
-            runningTotal = e.loaded
+          onDownloadProgress: (e) => {
+            runningTotal = e.loaded;
           }
         })
           .then((response) => {
