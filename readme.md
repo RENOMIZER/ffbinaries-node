@@ -1,19 +1,12 @@
 # ffbinaries downloader
 
 [![NPM Version][npm-img]][npm-url]
-[![NPM Downloads][npm-dl-img]][npm-url]
-[![Build status][circle-img]][circle-url]
-[![Coveralls coverage][coveralls-img]][coveralls-url]
 
-[npm-url]: https://npmjs.org/package/ffbinaries
-[npm-img]: https://img.shields.io/npm/v/ffbinaries.svg
-[npm-dl-img]: https://img.shields.io/npm/dm/ffbinaries.svg
-[circle-img]: https://img.shields.io/circleci/project/github/ffbinaries/ffbinaries-node/master.svg
-[circle-url]: https://circleci.com/gh/ffbinaries/ffbinaries-node/tree/master
-[coveralls-img]: https://img.shields.io/coveralls/ffbinaries/ffbinaries-node.svg
-[coveralls-url]: https://coveralls.io/github/ffbinaries/ffbinaries-node
+[npm-url]: https://npmjs.org/package/ffbinaries-plus
+[npm-img]: https://img.shields.io/badge/npm-v1.2.1-blue.svg
 
-#### (This fork replaces `request` dependency with `axios` since the first has been deprecated)
+> [!NOTE]
+> This fork replaces `request` dependency with `axios` since the first has been deprecated
 
 Downloads precompiled **ffmpeg, ffprobe, ffplay and ffserver binaries**
 from [ffbinaries.com](https://ffbinaries.com).
