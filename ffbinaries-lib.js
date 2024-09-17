@@ -274,6 +274,7 @@ function downloadUrls(components, urls, opts, callback) {
         return extractZipToDestination(zipFilename, cb);
       } catch (errZipExists) {
         // If zip is not cached then download it and store in cache
+        ensureDirSync(LOCAL_CACHE_DIR)
         if (opts.quiet) clearInterval(interval);
 
         var cacheFileTempName = zipPath + '.part';
