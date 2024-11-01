@@ -27,8 +27,6 @@ function ensureDirSync(dir) {
   }
 }
 
-ensureDirSync(LOCAL_CACHE_DIR);
-
 /**
  * Resolves the platform key based on input string
  */

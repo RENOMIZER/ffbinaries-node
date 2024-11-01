@@ -3,7 +3,7 @@
 [![NPM Version][npm-img]][npm-url]
 
 [npm-url]: https://npmjs.org/package/ffbinaries-plus
-[npm-img]: https://img.shields.io/badge/npm-v1.2.1-blue.svg
+[npm-img]: https://img.shields.io/badge/npm-v1.2.4-blue.svg
 
 > [!NOTE]
 > This fork replaces `request` dependency with `axios` since the first has been deprecated
